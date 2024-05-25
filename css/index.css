@@ -1,0 +1,10 @@
+#bgimage{
+    width: auto;
+    height: auto;
+    background-image: url("../images/main.jpg");
+}
+h1{
+    width: 1000px;
+    height: 100px;
+    color: aliceblue;
+}

@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
+    <script>
+        window.onload = function() {
+    alert('欢迎来到MSRC官网,官方QQ群：916903857');
+};
+    </script>
     <meta charset="UTF-8">
     <title>MSRC --官网首页</title>
     <link rel="stylesheet" href="./css/index.css" type="text/css">
-    <script type="text/js" src="./js/index.js"></script>
+    <script src="./js/index.js"></script>
 </head>
 <body>
     <div id="bgimage">
-        <h1>MSRC,更懂你的服务器
+        <div id="sp">
+            ""
+        </div>
+        <h1>
+            <div>
+                MSRC，一个更懂你的服务器
+            </div>
+            <div>
+                <p6>&nbsp</p6>
+                <button onclick="window.location.href = './login.html'" id="button" type="button">登录 或 注册</button>
+                <button onclick="window.location.href = './does.html'" id="button" type="button">查看文档</button>
+            </div>
+            
         </h1>
+        
     </div>
 </body>
 </html>
